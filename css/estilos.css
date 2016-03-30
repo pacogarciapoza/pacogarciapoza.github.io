@@ -9,33 +9,9 @@ body {
   body {
     background: url("../img/back-f.svg");
     background-attachment: fixed;
-    background-color: skyblue;
-  }
-  .container-base {
-  margin: auto;
-  padding: 1.5rem;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 0.6rem; }
+    background-color: lightblue; }
   .container-round {
-    margin: auto; }
-
-  .container-base {
-    margin: auto;
-    padding: 1.5rem;
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 0.6rem; }
-
-  .font1 {
-    font-size: 2rem;
-    }
-
-  .font2 {
-    font-size: 2rem;
-     }
-  }
-
+    margin: auto; } }
 
 @media only screen and (min-width: 768px) {
   body {
@@ -356,13 +332,13 @@ body {
 
 .font1 {
   margin: 3rem 0 2.5rem 0;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   letter-spacing: -.1rem; }
 
 .font2 {
   margin: 3rem 0 2.5rem 0;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 400;
   letter-spacing: -.1rem; }
 
@@ -395,7 +371,8 @@ body {
   border-radius: 10px;
   padding: 24px;
   -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
 
 .btn-act:hover {
   background-color: #11bbcc;
@@ -412,7 +389,8 @@ body {
   background-color: #999999;
   font-size: 16px;
   border-radius: 10px;
-  padding: 24px; }
+  padding: 24px;
+  text-transform: uppercase; }
 
 .btn-dwnld {
   display: inline-block;
@@ -422,16 +400,17 @@ body {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background-color: #d93560;
+  background-color: #11bbcc;
   cursor: pointer;
   font-size: 16px;
   border-radius: 10px;
   padding: 20px;
   -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
 
 .btn-dwnld:hover {
-  background-color: #11bbcc;
+  background-color: #ff6633;
   box-shadow: #B9B7B7 0px 1px 1px; }
 
 .btn-round {
@@ -554,10 +533,12 @@ body {
 .container-rectangle {
   float: left;
   margin-bottom: 16px;
-  width: 300px; }
+  width: 350px; }
 
 .container-round {
   float: left;
+  width: 315px;
+  height: 315px;
   background-color: #ffffff;
   border: 5px solid #f2f2f2;
   border-radius: 100%; }
