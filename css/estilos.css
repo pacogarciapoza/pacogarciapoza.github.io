@@ -9,10 +9,17 @@ body {
   body {
     background: url("../img/back-f.svg");
     background-attachment: fixed;
-    background-color: skyblue; 
+    background-color: skyblue;
   }
   .container-round {
-    margin: auto; } 
+    margin: auto; }
+
+  .container-base {
+    margin: auto;
+    padding: 1.5rem;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.6rem; }
   }
 
 @media only screen and (min-width: 768px) {
