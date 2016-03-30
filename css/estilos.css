@@ -383,6 +383,31 @@ h6 {
 .lgt-txt {
   color: #ffffff; }
 
+/*CONTENEDORES*/
+.container_txt {
+  padding: 10px; }
+
+.seccion {
+  margin-top: 20px; }
+
+.container-mask {
+  border: 10px solid #999999;
+  box-shadow: #B9B7B7 0px 3px 2px;
+  margin: auto;
+  padding: 0;
+  border-radius: 800px; }
+
+.container-rectangle {
+  margin-bottom: 16px;
+  width: 350px; }
+
+.container-round {
+  width: 315px;
+  height: 315px;
+  background-color: #ffffff;
+  border: 5px solid #f2f2f2;
+  border-radius: 100%; }
+
 body {
   background: url("../img/aaa.jpg");
   background-attachment: fixed;
@@ -419,7 +444,17 @@ body {
     line-height: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #404040; } }
+    color: #404040; }
+  .container-rectangle {
+    margin-bottom: 16px;
+    width: 280px; }
+  .container-round {
+    width: 270px;
+    height: 270px;
+    background-color: #ffffff;
+    border: 5px solid #f2f2f2;
+    border-radius: 100%;
+    margin: auto; } }
 
 @media only screen and (min-width: 768px) {
   body {
@@ -458,7 +493,18 @@ body {
     line-height: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #404040; } }
+    color: #404040; }
+  .container-rectangle {
+    float: left;
+    margin-bottom: 16px;
+    width: 350px; }
+  .container-round {
+    float: left;
+    width: 315px;
+    height: 315px;
+    background-color: #ffffff;
+    border: 5px solid #f2f2f2;
+    border-radius: 100%; } }
 
 @media only screen and (min-width: 1280px) {
   body {
@@ -503,7 +549,18 @@ body {
     line-height: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #404040; } }
+    color: #404040; }
+  .container-rectangle {
+    float: left;
+    margin-bottom: 16px;
+    width: 350px; }
+  .container-round {
+    float: left;
+    width: 315px;
+    height: 315px;
+    background-color: #ffffff;
+    border: 5px solid #f2f2f2;
+    border-radius: 100%; } }
 
 /*BOTONES*/
 .btn-cam {
@@ -666,33 +723,6 @@ body {
 
 .color-lnk-blue-drk {
   color: #0a6d76; }
-
-/*CONTENEDORES*/
-.container_txt {
-  padding: 10px; }
-
-.seccion {
-  margin-top: 20px; }
-
-.container-mask {
-  border: 10px solid #999999;
-  box-shadow: #B9B7B7 0px 3px 2px;
-  margin: auto;
-  padding: 0;
-  border-radius: 800px; }
-
-.container-rectangle {
-  float: left;
-  margin-bottom: 16px;
-  width: 350px; }
-
-.container-round {
-  float: left;
-  width: 315px;
-  height: 315px;
-  background-color: #ffffff;
-  border: 5px solid #f2f2f2;
-  border-radius: 100%; }
 
 label {
   font-size: 14px;
