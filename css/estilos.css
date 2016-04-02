@@ -518,7 +518,7 @@ body {
     background: url("../img/back-f.svg");
     background-attachment: fixed;
     background-repeat: repeat;
-    background-color: #0489b1; }
+    background-color: #73d980; }
   .columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -576,12 +576,12 @@ body {
 
 /*BOTONES*/
 .btn-cam {
-  box-shadow: #B9B7B7 0px 3px 3px; }
+  box-shadow: #c1c1c1 0px 3px 3px; }
 
 .btn-act {
   display: inline-block;
   margin: 12px;
-  box-shadow: #B9B7B7 0px 3px 3px;
+  box-shadow: #c1c1c1 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 400;
@@ -596,12 +596,12 @@ body {
 
 .btn-act:hover {
   background-color: #11bbcc;
-  box-shadow: #B9B7B7 0px 1px 1px; }
+  box-shadow: #c1c1c1 0px 1px 1px; }
 
 .btn-inact {
   display: inline-block;
   margin: 12px;
-  box-shadow: #B9B7B7 0px 3px 3px;
+  box-shadow: #c1c1c1 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 400;
@@ -615,7 +615,7 @@ body {
 .btn-dwnld {
   display: inline-block;
   margin: 12px;
-  box-shadow: #B9B7B7 0px 3px 3px;
+  box-shadow: #c1c1c1 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 400;
@@ -631,7 +631,7 @@ body {
 
 .btn-dwnld:hover {
   background-color: #ff6633;
-  box-shadow: #B9B7B7 0px 1px 1px; }
+  box-shadow: #c1c1c1 0px 1px 1px; }
 
 .btn-round {
   display: inline-block;
