@@ -330,7 +330,7 @@ h6 {
       -ms-flex-line-pack: start;
           align-content: flex-start;
   text-align: left;
-  padding-left: 0rem; }
+  padding-left: 1rem; }
 
 .drk-bgr {
   background-color: #0097e8; }
@@ -472,7 +472,6 @@ body {
     column-count: 1;
     height: auto;
     margin-left: 1rem;
-    border: 1px solid red;
     padding: 24px; }
   .font1 {
     font-size: 4rem; }
@@ -529,7 +528,6 @@ body {
     column-count: 2;
     height: auto;
     width: auto;
-    border: 1px solid red;
     padding: 24px; }
   .one-column {
     max-width: 700px;
