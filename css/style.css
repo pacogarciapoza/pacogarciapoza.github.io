@@ -719,6 +719,74 @@ li {
     background-size: cover;
 }
 
+.slides li:nth-child(5) {
+    background: url("../img/samples/jh2.png") no-repeat center center;
+    background-size: cover;
+}
+
+/**/
+.clearfix {
+    overflow: auto;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    border: 1px solid red;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container-display {
+    position: relative;
+    width: 98%;
+    /*indicador*/
+    margin: 5px;
+    border: 1px dashed green;
+
+}
+
+.container-text {
+    text-align: left;
+    /*indicador*/
+    margin: 5px;
+    border: 1px dashed purple;
+}
+
+.boton-slider {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+}
+
+.boton-slider:hover {
+    width: 30px;
+    height: 30px;
+    background-color: ghostwhite;
+}
+
+.fletxaDreta-slider {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    */
+}
+
+.fletxaEsquerra-slider {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+
+.mySlides {
+    display: none;
+}
+
+/**/
+
 .prev,
 .next {
     position: absolute;
