@@ -13,6 +13,10 @@ hr {
     margin: 1rem, 0.5rem, 0, 1rem;
 }
 
+video {
+    border-radius: 20px;
+}
+
 .container-wide {
     width: 100%;
     height: auto;
@@ -692,11 +696,13 @@ li {
     height: 100%;
     position: absolute;
     display: none;
+    border-radius: 20px;
 }
 
 .slides li:nth-child(1) {
     background: url("../img/samples/jh1.png") no-repeat center center;
     background-size: cover;
+
 }
 
 .slides li:nth-child(2) {
